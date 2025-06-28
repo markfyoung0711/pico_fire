@@ -3,12 +3,8 @@ pico fireworks controllers
 
 Yes! Below is a schematic description for a Raspberry Pi Pico-based fireworks controller capable of controlling 12 fireworks independently. The circuit uses opto-isolated MOSFETs or relay drivers for safety and separation between the control logic and high-current fireworks igniters.
 
-⚠️ Safety Notice
-Only use this for electronic simulation or igniting cold spark or low-voltage resistive test loads unless supervised by a certified pyrotechnician.
 
-Real fireworks are explosive and dangerous. Improper use can result in injury or death.
-
-🔧 System Overview
+System Overview
 Controller: Raspberry Pi Pico
 
 Outputs: 12 individual channels for fireworks (igniter control)
@@ -24,6 +20,8 @@ Arming switch
 Status LEDs
 
 Manual override button (optional)
+
+
 
 📷 Circuit Block Schematic (One Channel)
 ```
