@@ -26,9 +26,8 @@ Status LEDs
 Manual override button (optional)
 
 📷 Circuit Block Schematic (One Channel)
-less
-Copy
-Edit
+```
+
 [Raspberry Pi Pico GPIO#X] --[1kΩ Resistor]--|>--[Optocoupler]--+-- Gate of MOSFET (e.g., IRFZ44N)
                                             |                   |
                                            GND               Source
@@ -38,6 +37,13 @@ Edit
                                                  [Firework Igniter]  GND
                                                      |
                                                    +12V
+
+
+
+```
+
+
+
 Repeat this for 12 GPIO pins (e.g., GP0 to GP11). You can use optocouplers like 4N35 and MOSFETs like IRFZ44N, or use a relay module with flyback diodes and isolation.
 
 🛠️ Component List (for 12 channels)
